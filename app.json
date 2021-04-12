@@ -4,9 +4,9 @@
     "slug": "SydneyStops",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./app/assets/favicon.png"
+    },
+    "description": "Sydney Stops is an application that focuses on travel and tourism around Sydney venues. It is intended to have social media capabilities and be a way for individuals to see what venues are being visited, how good they are and who is visiting them. There is much to be done and improved upon inside the application as it is an in development build.\n\nIn Development test user credentials for login (in case Registration fails):\nuser1: Email: samcarter@gmail.com password: midway1"
   }
 }
