@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppText renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#666666",
+      "borderRadius": 20,
+      "marginBottom": 20,
+      "overflow": "hidden",
+      "padding": 10,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 15,
+        "height": 220,
+        "width": "100%",
+      }
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Arial",
+          "fontSize": 14,
+        },
+        Object {
+          "fontSize": 20,
+        },
+      ]
+    }
+  >
+     
+    Establishment Name: 
+     
+  </Text>
+</View>
+`;
