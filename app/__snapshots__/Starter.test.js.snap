@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AppText renders correctly 1`] = `
+exports[`AppCard renders correctly with parsed values 1`] = `
 <View
   style={
     Object {
@@ -41,7 +41,95 @@ exports[`AppText renders correctly 1`] = `
   >
      
     Establishment Name: 
+    Bob's Barbeque
+     
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Arial",
+          "fontSize": 14,
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+     
+    City: 
+    Sydney
+     
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Arial",
+          "fontSize": 14,
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+     
+    Date Visited: 
+    10/02/2021
+     
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Arial",
+          "fontSize": 14,
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+     
+    Category: 
+    BBQ
+     
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Arial",
+          "fontSize": 14,
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+     
+    Submitted By: 
+    User01
      
   </Text>
 </View>
+`;
+
+exports[`AppIcon renders an icon correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "blue",
+      "borderRadius": 25,
+      "height": 50,
+      "justifyContent": "center",
+      "width": 50,
+    }
+  }
+/>
 `;

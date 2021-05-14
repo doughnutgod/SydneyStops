@@ -1,3 +1,5 @@
+import { TestScheduler } from "@jest/core";
+
 //Handles all Location Data Management
 export default class DataManager {
   static myInstance = null;
@@ -197,3 +199,5 @@ export default class DataManager {
     return this.locations.splice(x, 1);
   }
 }
+
+
