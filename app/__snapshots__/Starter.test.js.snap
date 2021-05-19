@@ -133,3 +133,36 @@ exports[`AppIcon renders an icon correctly 1`] = `
   }
 />
 `;
+
+exports[`AppTextInput renders with an Icon Correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DCDCDC",
+      "borderRadius": 30,
+      "flexDirection": "row",
+      "marginVertical": 10,
+      "padding": 10,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCaptilize="none"
+    autoCorrect={false}
+    placeholder="Password"
+    rejectResponderTermination={true}
+    secureTextEntry={true}
+    style={
+      Object {
+        "color": "#707070",
+        "flex": 1,
+        "fontFamily": "Arial",
+        "fontSize": 20,
+        "marginLeft": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
