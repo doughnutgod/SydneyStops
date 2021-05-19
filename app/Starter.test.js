@@ -3,10 +3,9 @@ import renderer from "react-test-renderer";
 import AppText from "./components/AppText";
 import AppCard from "./components/AppCard";
 import AppIcon from "./components/AppIcon";
-import AppTextInput from "./components/AppTextInput";
+import AppScreen from "./components/AppScreen";
 
 jest.mock("@expo/vector-icons");
-
 
 test("AppText default fontsize will be 14", () => {
   const json = renderer.create(<AppText />).toJSON();
@@ -52,16 +51,19 @@ test("AppIcon renders an icon correctly", () => {
   expect(tree1).toMatchSnapshot();
 });
 
-test("AppTextInput renders with an Icon Correctly", () => {
+test("AppScreen renders with AppIcon & AppCard", () => {
   const tree2 = renderer
     .create(
-      <AppTextInput
-        autoCaptilize="none"
-        autoCorrect={false}
-        icon="lock"
-        placeholder="Password"
-        secureTextEntry={true}
-      />
+      <AppScreen>
+        <AppIcon name="logout" ize={50} iconCol="red" backgroundColor="blue" />
+        <AppCard
+          name="Bob's Barbeque"
+          city="Sydney"
+          date="10/02/2021"
+          category="BBQ"
+          user="User01"
+        />
+      </AppScreen>
     )
     .toJSON();
   expect(tree2).toMatchSnapshot();

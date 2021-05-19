@@ -134,35 +134,146 @@ exports[`AppIcon renders an icon correctly 1`] = `
 />
 `;
 
-exports[`AppTextInput renders with an Icon Correctly 1`] = `
-<View
+exports[`AppScreen renders with AppIcon & AppCard 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
   style={
-    Object {
-      "backgroundColor": "#DCDCDC",
-      "borderRadius": 30,
-      "flexDirection": "row",
-      "marginVertical": 10,
-      "padding": 10,
-    }
+    Array [
+      Object {
+        "flex": 1,
+        "marginTop": 44,
+      },
+      undefined,
+    ]
   }
 >
-  <TextInput
-    allowFontScaling={true}
-    autoCaptilize="none"
-    autoCorrect={false}
-    placeholder="Password"
-    rejectResponderTermination={true}
-    secureTextEntry={true}
+  <View
     style={
       Object {
-        "color": "#707070",
-        "flex": 1,
-        "fontFamily": "Arial",
-        "fontSize": 20,
-        "marginLeft": 10,
+        "alignItems": "center",
+        "backgroundColor": "blue",
+        "borderRadius": 10,
+        "height": 20,
+        "justifyContent": "center",
+        "width": 20,
       }
     }
-    underlineColorAndroid="transparent"
   />
-</View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#666666",
+        "borderRadius": 20,
+        "marginBottom": 20,
+        "overflow": "hidden",
+        "padding": 10,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": undefined,
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 15,
+          "height": 220,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Arial",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 20,
+          },
+        ]
+      }
+    >
+       
+      Establishment Name: 
+      Bob's Barbeque
+       
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Arial",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+       
+      City: 
+      Sydney
+       
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Arial",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+       
+      Date Visited: 
+      10/02/2021
+       
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Arial",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+       
+      Category: 
+      BBQ
+       
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Arial",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+       
+      Submitted By: 
+      User01
+       
+    </Text>
+  </View>
+</RCTSafeAreaView>
 `;
